@@ -1,16 +1,25 @@
-# weather_app
+# Weather App
 
-A new Flutter project.
+This project involves building a Flutter app that displays weather data fetched from the Tomorrow API. By leveraging the Tomorrow API, the app provides users with real-time weather information and forecasts. Additionally, it utilizes User Bloc state management to efficiently handle app state, ensuring a seamless user experience. 
 
-## Getting Started
+# Installation and Run Guide
+```
 
-This project is a starting point for a Flutter application.
+git clone https://github.com/jay-isampelliwar/Weather-App
+cd Weather-App
+flutter pub get
+flutter run
 
-A few resources to get you started if this is your first Flutter project:
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Dependencies
+  flutter_bloc: ^8.1.4
+  dio: ^5.4.1
+  equatable: ^2.0.5
+  geolocator: ^11.0.0
+  permission_handler: ^11.3.0
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Version
+## Flutter Version 3.16.1
+## Dart Version 3.2.1
+
