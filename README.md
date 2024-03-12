@@ -14,10 +14,15 @@ flutter run
 
 # Dependencies
   flutter_bloc: ^8.1.4
+
   dio: ^5.4.1
+  
   equatable: ^2.0.5
+  
   geolocator: ^11.0.0
+  
   permission_handler: ^11.3.0
+  
 
 # Version
 ## Flutter Version 3.16.1
